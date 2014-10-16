@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Paul Kimbrel - Web Developer, Systems Architect</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Paul Kimbrel">
+    <meta name="description" content="Social media hub for Paul Kimbrel, Web Developer and Systems Architect.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel='stylesheet' type='text/css'>
+    <link href="../bower_components/components-font-awesome/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="profile-image img-circle" src="http://www.gravatar.com/avatar/179d194630cc32af5a08c78d4af27090?s=150" alt="Paul Kimbrel" />
+                </div>
+                <div class="col-sm-9 profile">
+                    <h1 class="name">Paul Kimbrel</h1>
+                    <h2 class="desciption">Web Developer, System Architect</h2> 
+                    <ul class="global-social list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" />
+</body>
+< /html>

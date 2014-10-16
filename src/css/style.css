@@ -1,0 +1,56 @@
+ body {
+     font-family: 'Exo 2', sans-serif;
+ }
+ h1 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 2.5em;
+ }
+ h2 {
+     font-size: 1.5em;
+ }
+ p {
+     margin-top: 0;
+     margin-bottom: .1em;
+ }
+ header {
+     padding: 10px 0 10px 0;
+ }
+ .profile-image {
+     display: block;
+     border: 3px solid #aaa;
+     margin: 20px auto 20px auto;
+ }
+ header h1 {
+     margin-top: 1.3em;
+     margin-bottom: 0em;
+ }
+ header h2 {
+     font-size: 1.1em;
+     margin-top: 0;
+     margin-bottom: 1em;
+     color: #888;
+ }
+ .global-social .fa {
+     font-size: 2.5em;
+     color: #888;
+ }
+ .global-social .fa-google-plus-square:hover {
+     color: #DE4c39;
+ }
+ .global-social .fa-linkedin-square:hover {
+     color: #0477B5;
+ }
+ .global-social .fa-twitter:hover {
+     color: #54ADF0;
+ }
+ .global-social .fa-github:hover {
+     color: #000;
+ }
+ @media (max-width: 768px) {
+     header h1 {
+         margin-top: 0em;
+     }
+     header .profile {
+         text-align: center;
+     }
+ }
