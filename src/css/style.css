@@ -1,28 +1,67 @@
+ /***************
+  * Global
+  ***************/
  body {
      font-family: 'Exo 2', sans-serif;
+     background: #DDD;
  }
- h1 {
-     font-family: 'Raleway', sans-serif;
-     font-size: 2.5em;
- }
+ p,
+ h1,
  h2 {
-     font-size: 1.5em;
- }
- p {
      margin-top: 0;
      margin-bottom: .1em;
  }
+ h3,
+ h4,
+ h5 {
+     margin-top: 0em;
+     margin-bottom: .5em;
+ }
+ /***************
+  * Navigation
+  ***************/
+ .navbar {
+     background-color: #888;
+     border-radius: 0;
+ }
+ .navbar-nav>li>a {
+     color: #285379;
+     text-shadow: 0 0 0;
+     letter-spacing: .1em;
+     font-family: 'Bitter', sans-serif;
+     font-size: 1.3em;
+ }
+ .navbar-nav>li.active>a {
+     color: #eee;
+ }
+ .nav>li>a:hover,
+ .nav>li>a:focus {
+     color: #428bca;
+ }
+ .nav>li.active>a:hover,
+ .nav>li.active>a:focus {
+     color: #eee;
+     background-color: #888;
+ }
+ /***************
+  * Header
+  ***************/
  header {
      padding: 10px 0 10px 0;
+     background-color: #000;
  }
  .profile-image {
      display: block;
-     border: 3px solid #aaa;
+     border: 3px solid #BBB;
      margin: 20px auto 20px auto;
  }
  header h1 {
-     margin-top: 1.3em;
+     font-family: 'Bitter', sans-serif;
+     font-size: 2.8em;
+     margin-top: 1.2em;
      margin-bottom: 0em;
+     color: #BBB;
+     letter-spacing: .1em;
  }
  header h2 {
      font-size: 1.1em;
@@ -44,7 +83,7 @@
      color: #54ADF0;
  }
  .global-social .fa-github:hover {
-     color: #000;
+     color: #aaa;
  }
  @media (max-width: 768px) {
      header h1 {
@@ -53,4 +92,28 @@
      header .profile {
          text-align: center;
      }
+ }
+ /***************
+  * Content
+  ***************/
+ .main-section {
+     margin-top: 30px;
+ }
+ article,
+ sidebar {
+     display: block;
+     background-color: #f0f0f0;
+     border: 1px solid #888;
+     padding: 20px;
+     border-radius: 6px;
+     margin-bottom: 20px;
+ }
+ sidebar .list-group {
+     margin-bottom: 0px;
+     border 0;
+     box-shadow: 0 0 0;
+ }
+ sidebar .list-group-item {
+     border: 0px;
+     background: none;
  }
