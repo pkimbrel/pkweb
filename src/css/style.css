@@ -85,7 +85,7 @@
  .global-social .fa-github:hover {
      color: #aaa;
  }
- @media (max-width: 768px) {
+ @media (max-width: 767px) {
      header h1 {
          margin-top: 0em;
      }
