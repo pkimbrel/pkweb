@@ -5,7 +5,6 @@
      font-family: 'Exo 2', sans-serif;
      background: #DDD;
  }
- p,
  h1,
  h2 {
      margin-top: 0;
@@ -17,34 +16,14 @@
      margin-top: 0em;
      margin-bottom: .5em;
  }
- /***************
-  * Navigation
-  ***************/
- .navbar {
-     background-color: #888;
-     border-radius: 0;
+ p {
+     margin-bottom: 1em;
  }
  .navbar-nav>li>a {
-     color: #285379;
-     text-shadow: 0 0 0;
-     letter-spacing: .1em;
-     font-family: 'Bitter', sans-serif;
      font-size: 1.3em;
  }
- .navbar-nav>li.active>a {
-     color: #eee;
- }
- .nav>li>a:hover,
- .nav>li>a:focus {
-     color: #428bca;
- }
- .nav>li.active>a:hover,
- .nav>li.active>a:focus {
-     color: #eee;
-     background-color: #888;
- }
  /***************
-  * Header
+  * Header Footer
   ***************/
  header {
      padding: 10px 0 10px 0;
@@ -73,7 +52,8 @@
      font-size: 2.5em;
      color: #888;
  }
- .global-social .fa-google-plus-square:hover {
+ .global-social .fa-google-plus-square:hover,
+ .global-social .fa-youtube-play:hover {
      color: #DE4c39;
  }
  .global-social .fa-linkedin-square:hover {
@@ -83,7 +63,21 @@
      color: #54ADF0;
  }
  .global-social .fa-github:hover {
-     color: #aaa;
+     color: #eee;
+ }
+ .global-social .fa-instagram:hover {
+     color: #B8663A;
+ }
+ .global-social .fa-soundcloud:hover {
+     color: #FF3B00;
+ }
+ footer {
+     display: block;
+     padding: 20px 0 20px 0;
+     font-size: 1.3em;
+     background: #000;
+     color: #BBB;
+     font-family: 'Bitter', sans-serif;
  }
  @media (max-width: 767px) {
      header h1 {
@@ -98,6 +92,13 @@
   ***************/
  .main-section {
      margin-top: 30px;
+ }
+ .affix-top {
+     width: 100%;
+ }
+ .affix {
+     width: 25%;
+     top: 20px;
  }
  article,
  sidebar {
