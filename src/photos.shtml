@@ -51,10 +51,11 @@
                     <header>
                         <h2>My first Instagram photo</h2>
                         <p>
-                            <time pubdate datetime="2010-10-27">Oct 27, 2010</time>
+                            <time pubdate datetime="2014-10-21">Oct 21, 2014</time>
                         </p>
                     </header>
-                    <p>You never forget you're first, right? I recall I drank a ton of this stuff when I had an actual cubical. This stands a reminder of an interesting time at State Farm.</p>
+                    <p>You never forget your first, right? I recall I drank a ton of Blue Sky soda when I had an actual work cubical. But I had to quit because it was adding to my bottom line. This stands a reminder of an interesting time at State Farm.</p>
+                    <p>I took this photo on my iPhone 3s on <strong>Oct 27, 2010</strong>.</p>
                     <a href="http://instagram.com/p/FgqQ/" target="_blank">
                         <img src="http://images.ak.instagram.com/media/2010/10/27/f49bcd13d1d6413083cfa3ebabf97767_7.jpg" alt="Blue Sky" class="img-rounded full" />
                     </a>
@@ -62,8 +63,14 @@
                 <article>
                     <header>
                         <h2>Fall Photos</h2>
+                        <p>
+                            <time pubdate datetime="2014-10-21">Oct 21, 2014</time>
+                        </p>
                     </header>
-                    <p>The first image here was one of my first Instagram photos - taken on Oct 28, 2010. Fall is a time when Instragrm really shines. It's filters bring out the best of Fall - its colors. It was taken on my first iPhone, too - the iPhone 3s. The iPhone cameras have come a long way since this - but I still love that photo.</p>
+                    <p>The first image here was one of my first Instagram photos - taken on Oct 28, 2010. Fall is a time when Instragrm really shines. The filters have always brought out the best of Fall - its colors. The first photo here was taken on my first iPhone, too - the iPhone 3s. The iPhone cameras have come a <em>long</em> way since that picture was taken - but I still love it.</p>
+                    <div class="yearBreak">
+                        2010
+                    </div>
                     <a href="http://instagram.com/p/F65J/" target="_blank">
                         <img src="http://images.ak.instagram.com/media/2010/10/28/cd468af280cf4c099228bc49f645116f_7.jpg" alt="Colors of Fall" class="img-rounded full" />
                     </a>
@@ -73,7 +80,69 @@
                     <a href="http://instagram.com/p/QaOH/" target="_blank">
                         <img src="http://images.ak.instagram.com/media/2010/11/14/63880ff2c0d3429892c9f8e24cedd978_7.jpg" alt="Colors of Fall" class="img-rounded half" />
                     </a>
-
+                    <div class="yearBreak">
+                        2011
+                    </div>
+                    <a href="http://instagram.com/p/OeBd4/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2011/09/28/72144f2061f44c53ba377fdf01ec5013_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/RdySh/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2011/10/25/faf2318294bd4b9ea44652ff7c93c13d_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/RdzLz/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2011/10/25/377dc92acd6c44e48f47a5a99b6f25d2_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/Rdyl-/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2011/10/25/bd6d68da56d74dc39880262388efcf60_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <div class="yearBreak">
+                        2012
+                    </div>
+                    <a href="http://instagram.com/p/QNzDyAPTey/" target="_blank">
+                        <img src="http://distilleryimage10.ak.instagram.com/f6eed6f00b4a11e289dc22000a1d039d_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/R7-d3-PTWs/" target="_blank">
+                        <img src="http://distilleryimage0.ak.instagram.com/a3e2aace2cea11e29ed51231381f3303_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <div class="yearBreak">
+                        2013
+                    </div>
+                    <a href="http://instagram.com/p/gQk8zcPTVJ/" target="_blank">
+                        <img src="http://photos-h.ak.instagram.com/hphotos-ak-xpa1/1388833_280342388757551_564069757_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/gwsnodvTSW/" target="_blank">
+                        <img src="http://photos-c.ak.instagram.com/hphotos-ak-xaf1/1389792_1411880942381098_1227477084_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/g02MPXPTcQ/" target="_blank">
+                        <img src="http://photos-c.ak.instagram.com/hphotos-ak-xap1/1168536_620853047982266_1041316852_n.jpg" alt="Fall Tornado" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/gQlEEuvTVU/" target="_blank">
+                        <img src="http://photos-g.ak.instagram.com/hphotos-ak-xap1/1389625_200061656843934_90600188_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <div class="yearBreak">
+                        2014
+                    </div>
+                    <a href="http://instagram.com/p/t5LlJ5PTTb/" target="_blank">
+                        <img src="http://photos-g.ak.instagram.com/hphotos-ak-xaf1/10723704_1477959559133958_83782037_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/teJ4p-PTUo/" target="_blank">
+                        <img src="http://photos-b.ak.instagram.com/hphotos-ak-xfp1/1173171_661774463930233_1143468844_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/uT-5CiPTXZ/" target="_blank">
+                        <img src="http://photos-d.ak.instagram.com/hphotos-ak-xfa1/10693514_567330923372067_1118264708_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/uUAdY6PTal/" target="_blank">
+                        <img src="http://photos-b.ak.instagram.com/hphotos-ak-xfa1/10731515_1469658649982753_1031282060_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/uT_RFFvTYB/" target="_blank">
+                        <img src="http://photos-g.ak.instagram.com/hphotos-ak-xaf1/10731751_588996577892846_2129389418_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/uT_qrKvTYv/" target="_blank">
+                        <img src="http://photos-h.ak.instagram.com/hphotos-ak-xaf1/10731957_1482546458679151_1449446620_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/tpzngrPTVe/" target="_blank">
+                        <img src="http://photos-h.ak.instagram.com/hphotos-ak-xaf1/10683964_868282609850703_1472498638_n.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
                 </article>
             </div>
             <div class="col-sm-4 level-two">

@@ -24,6 +24,8 @@
     <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 
     <link href='css/style.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="audio/audioplayerengine/initaudioplayer-1.css">
 </head>
 
 <body>
@@ -37,9 +39,59 @@
                     <header>
                         <h2>My Music</h2>
                     </header>
+                    <p>
+                        If you ask me what I do for a living, the answer is easy. I'm a computer programmer. I've had all sorts of titles and responsibilities, and as I get older I'm doing more design and architecture. But at my core, I'm a computer programmer. I have been since I was 9 years old.
+                    </p>
+                    <p>
+                        However, if you were to ask me what I'd <em>rather</em> do for a living, it would be to record music. I've always loved music - and in a way that's hard to explain. Anyone can love music, but there's something that music does to my core being that's beyond visceral. As an intellectual, I struggle with the spiritual. However, through music I feel I can reach my spirit.
+                    </p>
+                    <p>
+                        Growing up, I took piano lessons. I can't say I cared for it. It was too rigid and didn't teach me what I wanted to know. The stress of practice and recitals took the joy out of music and really turned me off from playing any instrument. However, I devoured recorded albums. I studied them. I would listen for hours on end to the same tape - wearing it thin to the point that it ran an octive lower. I heard parts in recordings that most people would ignore - and I attached myself to those parts. In a way, they became a part of me.
+                    </p>
+                    <p>
+                        Then in college, I had the opportunity to meet some guys that were interested in recording an album. Classic "me" offered to do it without any prior experience or knowledge. It was messy. It didn't turn out great. But it was real - and I had a part in creating it. It started a land slide that has continued to this day.
+                    </p>
+                    <p>
+                        For about 10 years, I ran Shadow Clost Studios. The name came from the first apartment my friends and I used to record that album. We used a walk-in closet as a vocal booth. Did it really help? Nope. But we didn't know that at the time, and it was fun. My studio grew - I recorded more artists, but then life crept in.
+                    </p>
+                    <p>
+                        I have no regrets of moving forward with life. To record music full time was an endevour that required so much of me, I would have had nothing left for my loved ones. Over time, the contracts shrank up, the equipment went unused. Our family moved and the studio didn't come with us. I still have the gear and I have a small niche to play around in. But recording isn't on the horizon until we launch our children out into the world.
+                    </p>
+                    <p>
+                        Posted here are a few of my own personal tracks that I recorded. They're not the best recordings in the world - and certainly not the best songs known to man. But they are a part of who I am - or at least who I was. When the time comes that I record again - it will be fun to hear how things have changed.
+                    </p>
+                    <p>
+                        Many people have contributed to this music. But I have recognize two guys in particular. Steve Hampton was my best friend in college and a spirital partner. He plays the guitar in many of these tracks and was the guy that really helped me capture what was in my brain - and recorded on disk. Chad Lemons was the guy that started this stuff. It was his album that got the ball rolling. His encouragment and guitar playing are seen here as well.
+                    </p>
+                    <p>
+                        And there are many more - I'll try to remember who all was involved. If I missed you - my apologies. You have permission to write me a nasty letter. At least then I'll know where I need to update my website.
+                    </p>
+                </article>
+                <article>
+                    <header>
+                        <h2>One Fine Day</h2>
+                    </header>
+                    <p>This is probably my favorite song (of what I've written). It started out as a simple acoustic guitar riff (as heard at the beginning) and mushroomed from there. In particular, the drums and bass added a whole new diminsion to the song that we played on as we recorded the vocals. But it was missing so much. Then Chad came into town for a visit. In one night - he completed the song with some of the best funk guitar licks I could never imagine.</p>
+                    <a href="http://music.shadowcloset.com/PaulKimbrel/OneFineDay.mp3"><i class="fa fa-cloud-download"></i> Download</a>
+                </article>
+                <article>
+                    <header>
+                        <h2>Beyond a Doubt</h2>
+                    </header>
+                    <p>
+                        This song was an accident. Steve and I were playing with an echo pedal when found a great timing and an awesome riff. It's not a terribly original riff, but it was inspiring. So we went through the bank of lyrics and found something that fit. I hooked up a mic and sang while Steve played. Both are are what you hear on this recording. We tried to improve both, and failed - the original stuck.
+                    </p>
+                    <p>
+                        Oh, and that bass line. It was also an accident. Probably why this song is the best of the bunch.
+                    </p>
+                    <a href="http://music.shadowcloset.com/PaulKimbrel/02_Beyond_A_Doubt.mp3"><i class="fa fa-cloud-download"></i> Download</a>
+
+                </article>
+                <article>
+                    <header>
+                        <h2>Other songs I've not written about yet</h2>
+                    </header>
                     <ul>
-                        <li><a href="http://music.shadowcloset.com/PaulKimbrel/OneFineDay.mp3">One Fine Day</a> - one of my favorites</li>
-                        <li><a href="http://music.shadowcloset.com/PaulKimbrel/02_Beyond_A_Doubt.mp3">Beyond A Doubt</a> - love that bass line (ps - this is a "i'm not really like this" sort of song)</li>
                         <li><a href="http://music.shadowcloset.com/PaulKimbrel/03_Someone_Special.mp3">Someone Special</a> - <em>"patience is a virute that I never seem to master"</em>
                         </li>
                         <li><a href="http://music.shadowcloset.com/PaulKimbrel/04_Where_Are_You_Now.mp3">Where Are You Now</a> - this one started it all off, but doesn't sound anyting like the first cut</li>
@@ -54,6 +106,24 @@
                 </article>
             </div>
             <div class="col-sm-4 level-two">
+                <sidebar>
+                    <h3>Music Stream</h3>
+                    <div id="amazingaudioplayer-1" style="display:block;position:relative;width:100%;height:auto;margin:0px auto 0px;">
+                        <ul class="amazingaudioplayer-audios" style="display:none;">
+                            <li data-artist="Paul Kimbrel" data-title="One Fine Day" data-album="Somewhere Down the Line" data-info="" data-image="" data-duration="221">
+                                <div class="amazingaudioplayer-source" data-src="http://music.shadowcloset.com/PaulKimbrel/OneFineDay.mp3" data-type="audio/mpeg" />
+                                <div class="amazingaudioplayer-source" data-src="http://music.shadowcloset.com/PaulKimbrel/OneFineDay.ogg" data-type="audio/ogg" />
+                            </li>
+                            <li data-artist="Paul Kimbrel" data-title="Beyond a Doubt" data-album="Somewhere Down the Line" data-info="" data-image="" data-duration="159">
+                                <div class="amazingaudioplayer-source" data-src="http://music.shadowcloset.com/PaulKimbrel/02_Beyond_A_Doubt.mp3" data-type="audio/mpeg" />
+                                <div class="amazingaudioplayer-source" data-src="http://music.shadowcloset.com/PaulKimbrel/02_Beyond_A_Doubt.ogg" data-type="audio/ogg" />
+                            </li>
+                        </ul>
+                        <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com" title="mp3 player for website">html5 music player</a>
+                        </div>
+                    </div>
+
+                </sidebar>
                 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/12652936&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
             </div>
         </div>
@@ -69,6 +139,8 @@
     </footer>
     <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="audio/audioplayerengine/amazingaudioplayer.js"></script>
+    <script src="audio/audioplayerengine/initaudioplayer-1.js"></script>
 </body>
 
 </html>
