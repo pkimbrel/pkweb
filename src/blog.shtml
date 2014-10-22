@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Paul Kimbrel - Blog</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Paul Kimbrel">
+    <meta name="description" content="Social media hub for Paul Kimbrel, Web Developer and Systems Architect.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel='stylesheet' type='text/css'>
+    <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!--#set var="page" value="blog" -->
+    <!--#include virtual="includes/header.shtml" -->
+
+    <div class="container main-section blog">
+        <div class="row">
+            <div class="col-sm-8 level-one">
+                <article>
+                    <header>
+                        <h2>A New Site</h2>
+                        <p>
+                            <time pubdate datetime="2014-10-21">Oct 21, 2014</time>
+                        </p>
+                    </header>
+                    <p>
+                        My previous site was terrible. It was to be a great experiement and it technically worked. Except I never kept up with any new content and the theme was an abomination that made me embarassed to call myself a web developer.
+                    </p>
+                    <p>
+                        Well, today I turn that around. I decided to develop a theme that follows my personal web design preferences. I've looked far and wide at many sites and decided what I hate the most - and I've NOT put those ideas in this design. In particular, I've decided to keep things pretty spaced out and sparse. My number one complaint of most sites is that they're packed to the brim with crap nobody cares about. It's all a distraction that keeps you from the main purpose of your visit to a site.
+                    </p>
+                    <p>
+                        Because let's face it - you're not here for the eye candy. In fact, I'm surprised your even here. Chance are you're in Florida looking for a dentist. That's not me. That's the other guy. You're welcome.
+                    </p>
+                    <p>
+                        So here's the deal. This site will still be place for exploration of new technologies and ideas. I shall implement all my crazy ideas here before I implement them elsewhere. My first task to is stop doing what I'm doing right this second - updating my website in a text editor. But all good things come with time. I'll update things as I get a better idea of the design and blog about the experience here... as I update the site driving my blog.
+                    </p>
+                    <p>Should be fun!</p>
+                </article>
+            </div>
+            <div class="col-sm-4 level-two">
+                <!--sidebar>
+                    <h4>Tags</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="badge">0</span>
+                            <a href="#">family</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge">0</span>
+                            <a href="#">music</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge">0</span>
+                            <a href="#">webdesign</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge">0</span>
+                            <a href="#">minecraft</a>
+                        </li>
+                    </ul>
+                </sidebar-->
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/pkimbrel" data-widget-id="523335483275739136">Tweets by @pkimbrel</a>
+                <script>
+                    ! function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");
+                </script>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    Copyright 2014 By Paul Kimbrel
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -5,10 +5,14 @@
      font-family: 'Exo 2', sans-serif;
      background: #DDD;
  }
- h1,
- h2 {
+ h1 {
      margin-top: 0;
      margin-bottom: .1em;
+ }
+ h2 {
+     font-size: 1.7em;
+     margin-top: 0;
+     margin-bottom: .5em;
  }
  h3,
  h4,
@@ -19,13 +23,14 @@
  p {
      margin-bottom: 1em;
  }
- .navbar-nav>li>a {
-     font-size: 1.3em;
+ strong {
+     font-weight: bold;
+     text-decoration: underline;
  }
  /***************
   * Header Footer
   ***************/
- header {
+ .bodyHeader {
      padding: 10px 0 10px 0;
      background-color: #000;
  }
@@ -34,7 +39,7 @@
      border: 3px solid #BBB;
      margin: 20px auto 20px auto;
  }
- header h1 {
+ .bodyHeader h1 {
      font-family: 'Bitter', sans-serif;
      font-size: 2.8em;
      margin-top: 1.2em;
@@ -42,7 +47,7 @@
      color: #BBB;
      letter-spacing: .1em;
  }
- header h2 {
+ .bodyHeader h2 {
      font-size: 1.1em;
      margin-top: 0;
      margin-bottom: 1em;
@@ -71,6 +76,9 @@
  .global-social .fa-soundcloud:hover {
      color: #FF3B00;
  }
+ .navbar-nav>li>a {
+     font-size: 1.3em;
+ }
  footer {
      display: block;
      padding: 20px 0 20px 0;
@@ -80,10 +88,10 @@
      font-family: 'Bitter', sans-serif;
  }
  @media (max-width: 767px) {
-     header h1 {
+     .bodyHeader h1 {
          margin-top: 0em;
      }
-     header .profile {
+     .bodyHeader .profile {
          text-align: center;
      }
  }
@@ -117,4 +125,21 @@
  sidebar .list-group-item {
      border: 0px;
      background: none;
+ }
+ /******************
+  * Blog
+  ******************/
+ .blog h2 {
+     margin-bottom: 0;
+ }
+ .blog article header time {
+     color: #888;
+     font-style: italic;
+ }
+ article img.full {
+     width: 100%;
+ }
+ article img.half {
+     width: 48%;
+     margin-right: 1%;
  }

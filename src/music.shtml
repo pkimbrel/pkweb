@@ -27,72 +27,16 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class="profile-image img-circle" src="http://www.gravatar.com/avatar/179d194630cc32af5a08c78d4af27090?s=150" alt="Paul Kimbrel" />
-                </div>
-                <div class="col-sm-9 profile">
-                    <h1 class="title">Paul D Kimbrel</h1>
-                    <h2 class="desciption">Web Developer, Technical Architect</h2> 
-                    <ul class="global-social list-inline">
-                        <li>
-                            <a href="https://www.twitter.com/pkimbrel" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://instagram.com/pkimbrel" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/pkimbrel/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://soundcloud.com/paul-kimbrel" target="_blank"><i class="fa fa-soundcloud"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/114118871174996663491/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/pkimbrel" target="_blank"><i class="fa fa-github"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <span class="navbar-brand visible-xs-block">Navigate</span>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="music.html">Music</a>
-                    </li>
-                    <!--li>
-                        <a href="videos.html">Videos</a>
-                    </li-->
-                </ul>
-            </div>
-        </div>
-    </div>
+    <!--#set var="page" value="music" -->
+    <!--#include virtual="includes/header.shtml" -->
 
     <div class="container main-section">
         <div class="row">
             <div class="col-sm-8 level-one">
                 <article>
-                    <h3>My Music</h3>
+                    <header>
+                        <h2>My Music</h2>
+                    </header>
                     <ul>
                         <li><a href="http://music.shadowcloset.com/PaulKimbrel/OneFineDay.mp3">One Fine Day</a> - one of my favorites</li>
                         <li><a href="http://music.shadowcloset.com/PaulKimbrel/02_Beyond_A_Doubt.mp3">Beyond A Doubt</a> - love that bass line (ps - this is a "i'm not really like this" sort of song)</li>

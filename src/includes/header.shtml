@@ -1,0 +1,90 @@
+<header class="bodyHeader">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="profile-image img-circle" src="http://www.gravatar.com/avatar/179d194630cc32af5a08c78d4af27090?s=150" alt="Paul Kimbrel" />
+            </div>
+            <div class="col-sm-9 profile">
+                <h1 class="title">Paul D Kimbrel</h1>
+                <h2 class="desciption">Web Developer, Technical Architect</h2> 
+                <ul class="global-social list-inline">
+                    <li>
+                        <a href="https://www.twitter.com/pkimbrel" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/pkimbrel" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/pkimbrel/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://soundcloud.com/paul-kimbrel" target="_blank"><i class="fa fa-soundcloud"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/114118871174996663491/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/pkimbrel" target="_blank"><i class="fa fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand visible-xs-block">Navigate</span>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <!--#if expr="${page} = 'index'" -->
+                <li class="active">
+                    <a href="index.shtml">Home</a>
+                </li>
+                <!--#endif-->
+                <!--#if expr="${page} != 'index'" -->
+                <li>
+                    <a href="index.shtml">Home</a>
+                </li>
+                <!--#endif-->
+                <!--#if expr="${page} == 'blog'" -->
+                <li class="active">
+                    <a href="blog.shtml">Blog</a>
+                </li>
+                <!--#endif-->
+                <!--#if expr="${page} != 'blog'" -->
+                <li>
+                    <a href="blog.shtml">Blog</a>
+                </li>
+                <!--#endif-->
+                <!--#if expr="${page} == 'music'" -->
+                <li class="active">
+                    <a href="music.shtml">Music</a>
+                </li>
+                <!--#endif-->
+                <!--#if expr="${page} != 'music'" -->
+                <li>
+                    <a href="music.shtml">Music</a>
+                </li>
+                <!--#endif-->
+                <!--#if expr="${page} == 'photos'" -->
+                <li class="active">
+                    <a href="photos.shtml">Photos</a>
+                </li>
+                <!--#endif-->
+                <!--#if expr="${page} != 'photos'" -->
+                <li>
+                    <a href="photos.shtml">Photos</a>
+                </li>
+                <!--#endif-->
+            </ul>
+        </div>
+    </div>
+</nav>

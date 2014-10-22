@@ -27,73 +27,16 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class="profile-image img-circle" src="http://www.gravatar.com/avatar/179d194630cc32af5a08c78d4af27090?s=150" alt="Paul Kimbrel" />
-                </div>
-                <div class="col-sm-9 profile">
-                    <h1 class="title">Paul D Kimbrel</h1>
-                    <h2 class="desciption">Web Developer, Technical Architect</h2> 
-                    <ul class="global-social list-inline">
-                        <li>
-                            <a href="https://www.twitter.com/pkimbrel" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://instagram.com/pkimbrel" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/pkimbrel/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://soundcloud.com/paul-kimbrel" target="_blank"><i class="fa fa-soundcloud"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/114118871174996663491/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/pkimbrel" target="_blank"><i class="fa fa-github"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <span class="navbar-brand visible-xs-block">Navigate</span>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="music.html">Music</a>
-                    </li>
-                    <!--li>
-                        <a href="videos.html">Videos</a>
-                    </li-->
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </div>
+    <!--#set var="page" value="index" -->
+    <!--#include virtual="includes/header.shtml" -->
 
     <div class="container main-section">
         <div class="row">
             <div class="col-sm-8 level-one">
                 <article>
-                    <h3>About Me</h3>
+                    <header>
+                        <h2>About Me</h2>
+                    </header>
                     <p>
                         I have over 15 years of professional experience in the areas of software application architecture, design and development. I also have over 20 years of experience in computer science. I have been a computer programmer, enthusiast, and evangelist for most of my life and I continue to look for ways to expand my skills and find ways of using technology to make life a little easier for everyone.
                     </p>
@@ -114,7 +57,7 @@
                 </article>
             </div>
             <div class="col-sm-4 level-two">
-                <sidebar>
+                <!--sidebar>
                     <h4>Tags</h4>
                     <ul class="list-group">
                         <li class="list-group-item">
@@ -134,7 +77,7 @@
                             <a href="#">minecraft</a>
                         </li>
                     </ul>
-                </sidebar>
+                </sidebar-->
                 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/pkimbrel" data-widget-id="523335483275739136">Tweets by @pkimbrel</a>
                 <script>
                     ! function (d, s, id) {

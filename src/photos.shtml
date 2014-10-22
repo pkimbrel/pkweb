@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Paul Kimbrel - Photos</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Paul Kimbrel">
+    <meta name="description" content="Social media hub for Paul Kimbrel, Web Developer and Systems Architect.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel='stylesheet' type='text/css'>
+    <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!--#set var="page" value="photos" -->
+    <!--#include virtual="includes/header.shtml" -->
+
+    <div class="container main-section">
+        <div class="row">
+            <div class="col-sm-8 level-one">
+                <article>
+                    <header>
+                        <h2>My Photos</h2>
+                    </header>
+                    <p>
+                        Instagram is awesome. Here we have a tool that really connects people through photography in a way that no other site has. Sure, they weren't the first photo sharing platform. However, the other are all about "how to store the photo". Instagram is about how to SHARE the photo. Unless you're a professional photographer that needs to control access to your photos, have multiple photo sizes, show the photo shoot details to the Nth degree, then chances are you don't need anything more than what Instagram provides.
+                    </p>
+                    <p>
+                        However, there's one problem. Instagram sort of pushes a "here and now" mentality. Photos have a few nano-seconds to capture your attention. And over time, the relevance of a photo diminishes as it falls farther down the timeline.
+                    </p>
+                    <p>
+                        And dang it - I've taken some darn good photos out there. I want the world to see them. So rather than reposting them on Instagram again (which I may still do), here are some of my Instagram photos that I'm particularly fond of:
+                    </p>
+                </article>
+                <article>
+                    <header>
+                        <h2>My first Instagram photo</h2>
+                        <p>
+                            <time pubdate datetime="2010-10-27">Oct 27, 2010</time>
+                        </p>
+                    </header>
+                    <p>You never forget you're first, right? I recall I drank a ton of this stuff when I had an actual cubical. This stands a reminder of an interesting time at State Farm.</p>
+                    <a href="http://instagram.com/p/FgqQ/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2010/10/27/f49bcd13d1d6413083cfa3ebabf97767_7.jpg" alt="Blue Sky" class="img-rounded full" />
+                    </a>
+                </article>
+                <article>
+                    <header>
+                        <h2>Fall Photos</h2>
+                    </header>
+                    <p>The first image here was one of my first Instagram photos - taken on Oct 28, 2010. Fall is a time when Instragrm really shines. It's filters bring out the best of Fall - its colors. It was taken on my first iPhone, too - the iPhone 3s. The iPhone cameras have come a long way since this - but I still love that photo.</p>
+                    <a href="http://instagram.com/p/F65J/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2010/10/28/cd468af280cf4c099228bc49f645116f_7.jpg" alt="Colors of Fall" class="img-rounded full" />
+                    </a>
+                    <a href="http://instagram.com/p/Pe57/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2010/11/13/0f3db60903c849c4ae3d1ff2b6f4b2be_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+                    <a href="http://instagram.com/p/QaOH/" target="_blank">
+                        <img src="http://images.ak.instagram.com/media/2010/11/14/63880ff2c0d3429892c9f8e24cedd978_7.jpg" alt="Colors of Fall" class="img-rounded half" />
+                    </a>
+
+                </article>
+            </div>
+            <div class="col-sm-4 level-two">
+                <sidebar clas="instagram">
+                    <h3>Recent Photos</h3>
+                    <p>
+                        <a href="http://instagr.am/pkimbrel" target="_blank">instagr.am/pkimbrel</a>
+                    </p>
+                    <script src="http://snapwidget.com/js/snapwidget.js"></script>
+                    <iframe src="http://snapwidget.com/in/?u=cGtpbWJyZWx8aW58MTI1fDF8OHx8bm98NXxub25lfG9uU3RhcnR8eWVzfHllcw==&ve=211014" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+                </sidebar>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    Copyright 2014 By Paul Kimbrel
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+
+</html>
