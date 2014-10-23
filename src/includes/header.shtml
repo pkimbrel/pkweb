@@ -46,42 +46,42 @@
             <ul class="nav navbar-nav">
                 <!--#if expr="${page} = 'index'" -->
                 <li class="active">
-                    <a href="index.shtml">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <!--#endif-->
                 <!--#if expr="${page} != 'index'" -->
                 <li>
-                    <a href="index.shtml">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <!--#endif-->
                 <!--#if expr="${page} == 'blog'" -->
                 <li class="active">
-                    <a href="blog.shtml">Blog</a>
+                    <a href="/blog">Blog</a>
                 </li>
                 <!--#endif-->
                 <!--#if expr="${page} != 'blog'" -->
                 <li>
-                    <a href="blog.shtml">Blog</a>
+                    <a href="/blog">Blog</a>
                 </li>
                 <!--#endif-->
                 <!--#if expr="${page} == 'music'" -->
                 <li class="active">
-                    <a href="music.shtml">Music</a>
+                    <a href="/music">Music</a>
                 </li>
                 <!--#endif-->
                 <!--#if expr="${page} != 'music'" -->
                 <li>
-                    <a href="music.shtml">Music</a>
+                    <a href="/music">Music</a>
                 </li>
                 <!--#endif-->
                 <!--#if expr="${page} == 'photos'" -->
                 <li class="active">
-                    <a href="photos.shtml">Photos</a>
+                    <a href="/photos">Photos</a>
                 </li>
                 <!--#endif-->
                 <!--#if expr="${page} != 'photos'" -->
                 <li>
-                    <a href="photos.shtml">Photos</a>
+                    <a href="/photos">Photos</a>
                 </li>
                 <!--#endif-->
             </ul>
