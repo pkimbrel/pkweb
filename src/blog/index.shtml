@@ -24,12 +24,12 @@
     <!--#set var="page" value="blog" -->
     <!--#include virtual="/includes/header.shtml" -->
 
-    <div class="container main-section blog">
+    <div class="container main-section">
         <div class="row">
             <div class="col-sm-8 level-one">
                 <article>
                     <header>
-                        <h2>A New Site</h2>
+                        <h2 class="withDate">A New Site</h2>
                         <p>
                             <time pubdate datetime="2014-10-21">Oct 21, 2014</time>
                         </p>

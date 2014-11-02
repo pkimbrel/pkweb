@@ -129,10 +129,10 @@
  /******************
   * Blog
   ******************/
- .blog h2 {
+ h2.withDate {
      margin-bottom: 0;
  }
- .blog article header time {
+ article header time {
      color: #888;
      font-style: italic;
  }
